@@ -8,6 +8,7 @@ import {
 } from "react-router-dom";
 import App from "./app";
 import Upload from "./components/Upload";
+import NewResult from "./pages/NewResult";
 import "./style/all.scss";
 
 ReactDOM.render(
@@ -15,6 +16,7 @@ ReactDOM.render(
         <Switch>
             <Route path="/" component={App} />
             <Route path="/upload" component={Upload} />
+            <Route path="/newResult" component={NewResult} />
             <Route path="/*">
                 <Redirect to="/" />
             </Route>

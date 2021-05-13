@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import Header from "./Header";
 import axios from "axios";
+import slice from "../images/slice.jpg";
 
 class Upload extends Component {
   state = {
@@ -70,7 +71,7 @@ class Upload extends Component {
           <form onSubmit={this.handleFormSubmit}>
             <img
               className="upload-image"
-              src="https://media.giphy.com/media/8rEFo5ZrPaeBolyIah/giphy.gif"
+              src={slice}
             />
 
             <h3 className="upload-subtitles">Recipe Title</h3>

@@ -6,14 +6,15 @@ import { Link } from "react-router-dom";
 function Header(props) {
   return (
     <header className="header">
-      <nav className="header__links header__links--left">
+      <nav className="header__links--left">
         <Link to="/">
           <img className="logo" src={calzone} />
         </Link>
       </nav>
-      <div className="btn-pic">
+      <div className="btn-pic"><h1>Pizza Picker</h1></div>
+      <div className="logo">
           <img
-            className="plus-sign"
+            className="slice"
             src={slice}
             alt="press this button to go to the page where you can upload your online exhibition information"
           />
