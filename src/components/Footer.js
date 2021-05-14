@@ -3,16 +3,16 @@ import { Link } from "react-router-dom";
 
 function Footer() {
   return (
-    <Footer>
+    <div>
       <div className="footer">
-        <Link to="/">
+        <Link to="/" className="footer-buttons--link">
           <div className="footer-buttons"><h2>PICKER</h2></div>
         </Link>
-        <Link to="/">
+        <Link to="/" className="footer-buttons--link">
             <div className="footer-buttons"><h2>RESULTS</h2></div>
         </Link>
       </div>
-    </Footer>
+    </div>
   );
 }
 export default Footer;

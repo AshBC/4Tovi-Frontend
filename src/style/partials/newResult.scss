@@ -14,17 +14,21 @@
     border-radius: 25%;
     background-color: lightseagreen;
 }
-.central-image--slice{
+.central-image--slice{ 
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    width:90%;
+    align-items: center; 
     padding-right: 0;
     margin-right:0;
-
-    @include tablet{
-        width: 95%;
-    }
+}
+.picture-frame{
+    width: 100px;
+    // height: 100px;
 }
 .QandA{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-size: 60px;
 }

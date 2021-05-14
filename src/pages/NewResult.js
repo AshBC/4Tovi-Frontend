@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
-import slice from "../images/slice.jpg";
+import slice from "../images/slice2.png";
 
 class NewResult extends Component {
   render() {

@@ -1,6 +1,6 @@
 import React from "react";
 import calzone from "../images/calzone.png";
-import slice from "../images/slice.jpg";
+import slice from "../images/slice2.png";
 import { Link } from "react-router-dom";
 
 function Header() {

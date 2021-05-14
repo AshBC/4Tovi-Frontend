@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Header from "./Header";
 import axios from "axios";
-import slice from "../images/slice.jpg";
+import slice from "../images/slice2.png";
 
 class Upload extends Component {
   state = {
