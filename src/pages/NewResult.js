@@ -10,11 +10,13 @@ class NewResult extends Component {
         <Header /> 
         <div className="main-page_center">
           <div className="round-background">
+            <div>
             <img
               className="central-image--slice"
               src={slice}
               alt="press this image of a pizza slice to move to see hint"
             />
+            </div>
             <h2 className="QandA">IT'S PIZZA!</h2>
           </div>
         </div>
