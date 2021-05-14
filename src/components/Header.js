@@ -3,7 +3,7 @@ import calzone from "../images/calzone.png";
 import slice from "../images/slice.jpg";
 import { Link } from "react-router-dom";
 
-function Header(props) {
+function Header() {
   return (
     <header className="header">
       <nav className="header__links--left">

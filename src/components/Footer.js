@@ -1,10 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-function Footer(props) {
+function Footer() {
   return (
     <Footer>
-      <div>
+      <div className="footer">
         <Link to="/">
           <div className="footer-buttons"><h2>PICKER</h2></div>
         </Link>
@@ -15,3 +15,4 @@ function Footer(props) {
     </Footer>
   );
 }
+export default Footer;

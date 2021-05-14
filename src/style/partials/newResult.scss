@@ -1,0 +1,30 @@
+.main-page_center{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    margin-left: 3rem;
+    margin-right: 1rem;
+    font-size: 60px;
+    width: 80vw;
+}
+.round-background{
+    border-radius: 25%;
+    background-color: lightseagreen;
+}
+.central-image--slice{
+    display: flex;
+    justify-content: center;
+    width:90%;
+    padding-right: 0;
+    margin-right:0;
+
+    @include tablet{
+        width: 95%;
+    }
+}
+.QandA{
+    font-size: 60px;
+}

@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import Header from "./components/Header";
-import axios from "axios";
+import Footer from "./components/Footer";
+
 
 class App extends Component {
   render() {
@@ -14,6 +15,7 @@ class App extends Component {
           <button className="button">Tell Us!</button>
           </div>
         </div>
+        <Footer />
       </div>
     );
   }
