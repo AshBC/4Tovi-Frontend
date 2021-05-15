@@ -79,8 +79,8 @@ class Upload extends Component {
               onChange={this.handleNameInputChange}
               className="userName-input"
               name="uploadtitle"
-              placeholder="Add your exhibition title here (we are case sensitive)"
-              alt="Add your exhibition title here (we are case sensitive)"
+              placeholder="What's the name of your pizza?"
+              alt="Add the name of your pizza here"
               value={this.state.uploadTitle}
             />
 
@@ -90,7 +90,7 @@ class Upload extends Component {
               className="userName-input"
               name="dates"
               placeholder="Only if you want"
-              alt="add exhibition dates here if there are any to note"
+              alt="add your cooking instructions here. There is no character limit"
               value={this.state.dates}
             />
 
@@ -99,8 +99,8 @@ class Upload extends Component {
               onChange={this.handleVideoIngredientsInputChange}
               className="userName-input"
               name="onlinespace"
-              placeholder="Example: MOCA CrytoVoxels"
-              alt="Add full Url here to your exhibition here (exhibitions can also be audio only)"
+              placeholder="Add your ingredients here"
+              alt="This text box has no character limit. Add your ingredients here separated by commas"
               value={this.state.onlineSpace}
             />
 

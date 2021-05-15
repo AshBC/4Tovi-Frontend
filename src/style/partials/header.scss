@@ -50,7 +50,7 @@ $color-dark-green: #16251c;
 .logo{
     display: flex;
     justify-content: center;
-    width:90%;
+    width: 30vw;
     padding-right: 0;
     margin-right:0;
 
@@ -70,7 +70,7 @@ $color-dark-green: #16251c;
     align-self: center;
     margin-top: 0.65rem;
     margin-bottom: 0.65rem;
-    max-width: 90%;
+    max-width: 40vw;
     @include tablet{
         width: 100%;
         margin-top: 1rem;
@@ -80,15 +80,18 @@ $color-dark-green: #16251c;
     }
 }
 .slice{
-    width: 10%;
+    width: 12vw;
     background-color: $color-dark-green;
 
     @include tablet{
-        width: 20%;
+        width: 30%;
     }
     @include tabletExt{
         width: 30%;
     }
 }
-
+.counter{
+    color: black;
+    font-size: 16px;
+}
 

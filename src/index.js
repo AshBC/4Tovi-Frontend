@@ -9,6 +9,7 @@ import {
 import App from "./app";
 import Upload from "./components/Upload";
 import NewResult from "./pages/NewResult";
+import EmptyResult from "./pages/EmptyResult";
 import "./style/all.scss";
 
 ReactDOM.render(
@@ -17,6 +18,7 @@ ReactDOM.render(
             <Route path="/" component={NewResult} />
             <Route path="/upload" component={Upload} />
             <Route path="/newResult" component={App} />
+            <Route path="/emptyResult" component={EmptyResult} />
             <Route path="/*">
                 <Redirect to="/" />
             </Route>

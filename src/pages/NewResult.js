@@ -12,7 +12,7 @@ class NewResult extends Component {
           <div className="round-background">
             <div>
             <img
-              className="central-image--slice"
+              className="central-slice"
               src={slice}
               alt="press this image of a pizza slice to move to see hint"
             />

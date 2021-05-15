@@ -1,9 +1,9 @@
 import React from "react";
 import calzone from "../images/calzone.png";
-import slice from "../images/slice2.png";
+import slice from "../images/slice.png";
 import { Link } from "react-router-dom";
 
-function Header() {
+function Header(props) {
   return (
     <header className="header">
       <nav className="header__links--left">
@@ -17,8 +17,9 @@ function Header() {
             className="slice"
             src={slice}
             alt="press this button to go to the page where you can upload your online exhibition information"
-          />
+          />  
       </div>
+    <h2 className="counter">{props.counter}</h2>
     </header>
   );
 }
