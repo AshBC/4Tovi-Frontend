@@ -32,15 +32,15 @@
     margin-top: 3rem;
     margin-bottom: 0.65rem;
     margin-left: 3rem;
-    margin-right: 0.65rem;
+    margin-right: 0;
     padding-top: 1rem;
-    width: 90vw;
+    width: 89vw;
 }
 .footer-buttons{
     display: flex;
     justify-content: center;
     align-content: center;
-    width:49vw;
+    width:45vw;
     margin: 0;
     border: 2px solid;
     border-color: black;
@@ -50,5 +50,11 @@
         text-decoration: none;
         color: black;
         font-size: 30px;
+    }
+    @include desktopLong{
+        width: 45vw;
+    }
+    @include desktopWide{
+        width: 40vw;
     }
 }

@@ -1,7 +1,7 @@
 import React, { Component } from "react";
-import Header from "./Header";
 import axios from "axios";
 import slice from "../images/slice2.png";
+import Footer from "./Footer";
 
 class Upload extends Component {
   state = {
@@ -67,7 +67,7 @@ class Upload extends Component {
     return (
       <div>
         <div className="form-page">
-          <h1 className="upload-title">Add Your Exhibition</h1>
+          <h1 className="upload-title">Add Your Pizza Recipe</h1>
           <form onSubmit={this.handleFormSubmit}>
             <img
               className="upload-image"
@@ -111,7 +111,7 @@ class Upload extends Component {
               Publish
             </button>
           </form>
-          <Header />
+          <Footer />
         </div>
       </div>
     );

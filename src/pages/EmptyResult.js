@@ -8,12 +8,10 @@ class EmptyR extends Component {
       <div className="appCss">
         <Header />
         <div className="main-center">
-          <div className="fade-background">
             <div className="central-image--tip">
               <p className="tip">Tip:</p>
               <h2 className="answer">IT'S ALWAYS PIZZA.</h2>
             </div>
-          </div>
         </div>
         <Footer />
       </div>

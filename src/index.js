@@ -15,9 +15,9 @@ import "./style/all.scss";
 ReactDOM.render(
     <Router>
         <Switch>
-            <Route path="/" component={NewResult} />
+            <Route path="/" component={App} exact/>
             <Route path="/upload" component={Upload} />
-            <Route path="/newResult" component={App} />
+            <Route path="/newResult" component={NewResult} />
             <Route path="/emptyResult" component={EmptyResult} />
             <Route path="/*">
                 <Redirect to="/" />

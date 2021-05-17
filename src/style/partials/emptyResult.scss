@@ -63,7 +63,7 @@
   margin-top: 4rem;
   margin-bottom: 3rem;
   position: relative;
-  animation: slide-up 4s 3s;
+  animation: slide-away 4s 2s;
   animation-fill-mode: forwards;
 
   @include keyframes(slide-away) {
@@ -73,7 +73,7 @@
       opacity: 1;
     }
     100% {
-      top: -50px;
+      top: -40px;
       left: 250px;
       opacity: 0;
     }

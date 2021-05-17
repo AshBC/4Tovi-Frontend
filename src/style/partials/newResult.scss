@@ -1,3 +1,14 @@
+@mixin desktopLong{
+  @media screen and (min-width: 1200px){
+    @content;  
+  }
+}
+@mixin desktopWide{
+  @media screen and (min-width: 1550px){
+   @content;   
+  }
+}
+
 @mixin keyframes($animation-name) {
   @-webkit-keyframes #{$animation-name} {
     @content;
@@ -88,7 +99,7 @@
     }
     100% {
       top: -140px;
-      left: 450px;
+      left: 399px;
       width: 0px;
       height: 0px;
     }

@@ -26,9 +26,9 @@ class App extends Component {
         <p>What is TOVI eating for lunch?</p>
         
         <div>
-          <Link to="/newResult">
+          <Link to="/newResult"> 
           <button className="button" onClick={this.handleClick}>Tell Us!</button>
-          </Link>
+          </Link> 
           </div>
         </div>
         <Footer />

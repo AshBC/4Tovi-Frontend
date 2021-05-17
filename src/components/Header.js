@@ -7,11 +7,11 @@ function Header(props) {
   return (
     <header className="header">
       <nav className="header__links--left">
-        <Link to="/">
+        <Link to="/upload">
           <img className="logo" src={calzone} />
         </Link>
       </nav>
-      <div className="btn-pic"><h1>Pizza Picker</h1></div>
+      <div className="text"><h1>Pizza Picker</h1></div>
       <div className="logo">
           <img
             className="slice"

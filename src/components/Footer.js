@@ -8,7 +8,7 @@ function Footer() {
         <Link to="/" className="footer-buttons--link">
           <div className="footer-buttons"><h2>PICKER</h2></div>
         </Link>
-        <Link to="/" className="footer-buttons--link">
+        <Link to="/emptyResult" className="footer-buttons--link">
             <div className="footer-buttons"><h2>RESULTS</h2></div>
         </Link>
       </div>
